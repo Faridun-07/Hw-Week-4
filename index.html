@@ -144,18 +144,430 @@
             <button class="bg-[#F72585] font-bold text-white lg:p-[8px_80px] p-[5px_20px] rounded-[5px] text-[14px]">See All</button>
         </div>
         <div class="flex flex-col gap-[13px]">
-            <div class="flex flex-col lg:flex-row lg:justify-between gap-[10px]">
+            <div class="flex flex-col items-center lg:flex-row lg:justify-between gap-[10px]">
                <article class="flex justify-center items-end text-white font-bold text-[24px] w-[290px] h-[390px] bg-[#A3A3A3] pb-[20px]">Python</article> 
                 <article class="flex justify-center items-end text-white font-bold text-[24px] w-[290px] h-[390px] bg-[#A3A3A3] pb-[20px]">Javascript</article> 
                  <article class="flex justify-center items-end text-white font-bold text-[24px] w-[290px] h-[390px] bg-[#A3A3A3] pb-[20px]">CSS</article> 
                   <article class="flex justify-center items-end text-white font-bold text-[24px] w-[290px] h-[390px] bg-[#A3A3A3] pb-[20px]">C#</article> 
             </div>
-             <div class="flex flex-col lg:flex-row lg:justify-between gap-[10px]">
+             <div class="flex flex-col lg:flex-row lg:justify-between gap-[10px] items-center">
                <article class="flex justify-center items-end text-white font-bold text-[24px] w-[290px] h-[390px] bg-[#A3A3A3] pb-[20px]">Web Development</article> 
                 <article class="flex justify-center items-end text-white font-bold text-[24px] w-[290px] h-[390px] bg-[#A3A3A3] pb-[20px]">Data Science</article> 
                  <article class="flex justify-center items-end text-white font-bold text-[24px] w-[290px] h-[390px] bg-[#A3A3A3] pb-[20px]">Java</article> 
                   <article class="flex justify-center items-end text-white font-bold text-[24px] w-[290px] h-[390px] bg-[#A3A3A3] pb-[20px]">SQL</article> 
             </div>
+        </div>
+    </section>
+
+    <section class="max-w-300 m-auto flex flex-col gap-[30px] p-[50px_15px] lg:p-[50px_0]">
+          <div class="flex justify-between items-center">
+            <h1 class="lg:text-[48px] text-[20px] text-[#1C3554] font-bold">All Courses</h1>
+            <div class="flex gap-[20px]">
+                <button class="font-medium bg-[#FFF5F9] text-[#F72585] lg:p-[10px_20px] p-[5px_20px] rounded-[5px] text-[14px]">Filter <i class="fa-solid fa-qrcode" style="color:#F72585;"></i></button>
+            <button class="hidden lg:flex bg-[#F72585] font-bold text-white lg:p-[15px_30px] p-[5px_20px] rounded-[5px] text-[14px]">Most Popular <i class="fa-solid fa-angle-right" style="color:white;"></i></button>
+            </div>
+        </div> 
+
+        <div class="flex flex-col gap-[20px] lg:flex-row lg:justify-between">
+        <aside class="flex flex-col gap-[20px] border-r-[1px] border-[gray] pr-[20px]">
+            <div class="flex gap-[120px] items-center">
+                <h1 class="text-[24px] font-bold text-[#1C3554]">Ratings</h1>
+                 <i class="fa-solid fa-angle-up" style="color:#1C3554; font-size: 22px;"></i>
+            </div>
+
+            <div class="flex flex-col gap-[20px]">
+            <div class="flex flex-col gap-[10px] border-b-[1px] border-[gray] pb-[20px]">
+                <div class="flex gap-[10px] items-center">
+                    <input type="checkbox">
+                    <img src="./src/images/Rating.png" alt="">
+                    <p class="text-[#1C3554] text-[14px] font-semibold">5</p>
+                    <p class="text-[#808080] text-[14px] font-semibold">(1242)</p>
+                </div>
+
+                <div class="flex gap-[10px] items-center">
+                    <input type="checkbox">
+                    <img src="./src/images/Rating4.png" alt="">
+                    <p class="text-[#1C3554] text-[14px] font-semibold">4+</p>
+                    <p class="text-[#808080] text-[14px] font-semibold">(2145)</p>
+                </div>
+                 <div class="flex gap-[10px] items-center">
+                    <input type="checkbox">
+                    <img src="./src/images/Rating3.png" alt="">
+                    <p class="text-[#1C3554] text-[14px] font-semibold">3+</p>
+                    <p class="text-[#808080] text-[14px] font-semibold">(224)</p>
+                </div>
+                 <div class="flex gap-[10px] items-center">
+                    <input type="checkbox">
+                    <img src="./src/images/Rating2.png" alt="">
+                    <p class="text-[#1C3554] text-[14px] font-semibold">2+</p>
+                    <p class="text-[#808080] text-[14px] font-semibold">(2049)</p>
+                </div>
+                 <div class="flex gap-[10px] items-center">
+                    <input type="checkbox">
+                    <img src="./src/images/Rating1.png" alt="">
+                    <p class="text-[#1C3554] text-[14px] font-semibold">1+</p>
+                    <p class="text-[#808080] text-[14px] font-semibold">(2049)</p>
+                </div>
+            </div>
+            </div>
+
+             <div class="flex gap-[90px] items-center">
+                <h1 class="text-[24px] font-bold text-[#1C3554]">Durations</h1>
+                 <i class="fa-solid fa-angle-up" style="color:#1C3554; font-size: 22px;"></i>
+            </div>
+
+            <div class="flex flex-col gap-[20px]">
+            <div class="flex flex-col gap-[10px] border-b-[1px] border-[gray] pb-[20px]">
+                <div class="flex gap-[10px] items-center">
+                    <input type="checkbox">
+                    <p class="text-[#1C3554] text-[14px] font-semibold">1-3 Hours</p>
+                    <p class="text-[#808080] text-[14px] font-semibold">(1242)</p>
+                </div>
+
+                <div class="flex gap-[10px] items-center">
+                    <input type="checkbox">
+                    <p class="text-[#1C3554] text-[14px] font-semibold">3-6 Hours</p>
+                    <p class="text-[#808080] text-[14px] font-semibold">(2145)</p>
+                </div>
+                 <div class="flex gap-[10px] items-center">
+                    <input type="checkbox">
+                    <p class="text-[#1C3554] text-[14px] font-semibold">6-12 Hours</p>
+                    <p class="text-[#808080] text-[14px] font-semibold">(224)</p>
+                </div>
+                 <div class="flex gap-[10px] items-center">
+                    <input type="checkbox">
+                    <p class="text-[#1C3554] text-[14px] font-semibold">13+ Hours</p>
+                    <p class="text-[#808080] text-[14px] font-semibold">(2049)</p>
+                </div>
+            </div>
+            </div>
+
+            <div class="flex gap-[75px] items-center">
+                <h1 class="text-[24px] font-bold text-[#1C3554]">Categories</h1>
+                 <i class="fa-solid fa-angle-up" style="color:#1C3554; font-size: 22px;"></i>
+            </div>
+             <div class="flex flex-col gap-[20px]">
+            <div class="flex flex-col gap-[10px] border-b-[1px] border-[gray] pb-[20px]">
+                <div class="flex gap-[10px] items-center">
+                    <input type="checkbox">
+                    <p class="text-[#1C3554] text-[14px] font-semibold">Golang</p>
+                    <p class="text-[#808080] text-[14px] font-semibold">(1242)</p>
+                </div>
+
+                <div class="flex gap-[10px] items-center">
+                    <input type="checkbox">
+                    <p class="text-[#1C3554] text-[14px] font-semibold">Java</p>
+                    <p class="text-[#808080] text-[14px] font-semibold">(2145)</p>
+                </div>
+                 <div class="flex gap-[10px] items-center">
+                    <input type="checkbox">
+                    <p class="text-[#1C3554] text-[14px] font-semibold">Flutter</p>
+                    <p class="text-[#808080] text-[14px] font-semibold">(224)</p>
+                </div>
+                 <div class="flex gap-[10px] items-center">
+                    <input type="checkbox">
+                    <p class="text-[#1C3554] text-[14px] font-semibold">CSS</p>
+                    <p class="text-[#808080] text-[14px] font-semibold">(2049)</p>
+                </div>
+            </div>
+            </div>
+
+            <div class="flex gap-[140px] items-center">
+                <h1 class="text-[24px] font-bold text-[#1C3554]">Level</h1>
+                 <i class="fa-solid fa-angle-up" style="color:#1C3554; font-size: 22px;"></i>
+            </div>
+             <div class="flex flex-col gap-[20px]">
+            <div class="flex flex-col gap-[10px] border-b-[1px] border-[gray] pb-[20px]">
+                <div class="flex gap-[10px] items-center">
+                    <input type="checkbox">
+                    <p class="text-[#1C3554] text-[14px] font-semibold">Beginner</p>
+                    <p class="text-[#808080] text-[14px] font-semibold">(2049)</p>
+                </div>
+
+                <div class="flex gap-[10px] items-center">
+                    <input type="checkbox">
+                    <p class="text-[#1C3554] text-[14px] font-semibold">Intermediate</p>
+                    <p class="text-[#808080] text-[14px] font-semibold">(2049)</p>
+                </div>
+                 <div class="flex gap-[10px] items-center">
+                    <input type="checkbox">
+                    <p class="text-[#1C3554] text-[14px] font-semibold">Expert</p>
+                    <p class="text-[#808080] text-[14px] font-semibold">(2049)</p>
+                </div>
+            </div>
+            </div>
+
+              <div class="flex gap-[70px] items-center">
+                <h1 class="text-[24px] font-bold text-[#1C3554]">Languages</h1>
+                 <i class="fa-solid fa-angle-up" style="color:#1C3554; font-size: 22px;"></i>
+            </div>
+             <div class="flex flex-col gap-[20px]">
+            <div class="flex flex-col gap-[10px] border-b-[1px] border-[gray] pb-[20px]">
+                <div class="flex gap-[10px] items-center">
+                    <input type="checkbox">
+                    <p class="text-[#1C3554] text-[14px] font-semibold">English</p>
+                    <p class="text-[#808080] text-[14px] font-semibold">(2049)</p>
+                </div>
+
+                <div class="flex gap-[10px] items-center">
+                    <input type="checkbox">
+                    <p class="text-[#1C3554] text-[14px] font-semibold">Espanol</p>
+                    <p class="text-[#808080] text-[14px] font-semibold">(2049)</p>
+                </div>
+                 <div class="flex gap-[10px] items-center">
+                    <input type="checkbox">
+                    <p class="text-[#1C3554] text-[14px] font-semibold">Melayu</p>
+                    <p class="text-[#808080] text-[14px] font-semibold">(2049)</p>
+                </div>
+                  <div class="flex gap-[10px] items-center">
+                    <input type="checkbox">
+                    <p class="text-[#1C3554] text-[14px] font-semibold">Bahasa Indonesia</p>
+                    <p class="text-[#808080] text-[14px] font-semibold">(2049)</p>
+                </div>
+                 <div class="flex gap-[10px] items-center mt-[20px]">
+            <h1 class="text-[#1C3554] font-semibold">Show more</h1>
+             <i class="fa-solid fa-angle-down" style="color:#1C3554;"></i>
+            </div>
+            </div>
+               <div class="flex gap-[140px] items-center border-b-[1px] border-[gray] pb-[20px]">
+                <h1 class="text-[24px] font-bold text-[#1C3554]">Price</h1>
+                 <i class="fa-solid fa-angle-down" style="color:#1C3554; font-size: 22px;"></i>
+            </div>
+             <div class="flex gap-[95px] items-center">
+                <h1 class="text-[24px] font-bold text-[#1C3554]">Features</h1>
+                 <i class="fa-solid fa-angle-down" style="color:#1C3554; font-size: 22px;"></i>
+            </div>
+            </div>
+        </aside>
+        <div class=" flex flex-col gap-[50px]">
+            <div class="flex flex-col lg:flex-row lg:justify-between gap-[40px]">
+          <article class="flex flex-col gap-[20px] min-w-[350px] items-center lg:min-w-0 lg:items-start">
+                <div class="flex flex-col gap-[20px] relative w-[262px] h-[208px] bg-[#CCCCCC] rounded-[5px]">
+                <div class="absolute bg-[#4586D6] text-white text-[12px] p-[8px_25px] rounded-[5px] top-[190px] left-[60px]">Web Developer</div>
+            </div>
+            <div class="flex flex-col gap-[10px]">
+                <h1 class="text-[#1C3554] font-medium">How to become an Expert Web <br> Developer</h1>
+                <p class="text-[12px] text-[#F72585] ">Tanah Air Team</p>
+                <div class="flex items-center gap-[10px]">
+                    <img src="./src/images/Rating.png" alt="">
+                    <p class="text-[gray] text-[14px]">(2078)</p>
+                </div>
+                
+                <div class="flex gap-[10px] items-end">
+                    <p class="text-[lightgray] line-through">$640</p>
+                    <h1 class="text-[#1C3554] text-[24px] font-semibold">$735</h1>
+                </div>
+                </div>
+            </article>
+              <article class="flex flex-col gap-[20px] min-w-[350px] items-center lg:min-w-0 lg:items-start">
+                <div class="flex flex-col gap-[20px] relative w-[262px] h-[208px] bg-[#CCCCCC] rounded-[5px]">
+                <div class="absolute bg-[#4586D6] text-white text-[12px] p-[8px_25px] rounded-[5px] top-[190px] left-[60px]">Web Developer</div>
+            </div>
+            <div class="flex flex-col gap-[10px]">
+                <h1 class="text-[#1C3554] font-medium">How to become an Expert Web <br> Developer</h1>
+                <p class="text-[12px] text-[#F72585] ">Tanah Air Team</p>
+                <div class="flex items-center gap-[10px]">
+                    <img src="./src/images/Rating.png" alt="">
+                    <p class="text-[gray] text-[14px]">(2078)</p>
+                </div>
+                
+                <div class="flex gap-[10px] items-end">
+                    <p class="text-[lightgray] line-through">$640</p>
+                    <h1 class="text-[#1C3554] text-[24px] font-semibold">$735</h1>
+                </div>
+                </div>
+            </article>
+              <article class="flex flex-col gap-[20px] min-w-[350px] items-center lg:min-w-0 lg:items-start">
+                <div class="flex flex-col gap-[20px] relative w-[262px] h-[208px] bg-[#CCCCCC] rounded-[5px]">
+                <div class="absolute bg-[#4586D6] text-white text-[12px] p-[8px_25px] rounded-[5px] top-[190px] left-[60px]">Web Developer</div>
+            </div>
+            <div class="flex flex-col gap-[10px]">
+                <h1 class="text-[#1C3554] font-medium">How to become an Expert Web <br> Developer</h1>
+                <p class="text-[12px] text-[#F72585] ">Tanah Air Team</p>
+                <div class="flex items-center gap-[10px]">
+                    <img src="./src/images/Rating.png" alt="">
+                    <p class="text-[gray] text-[14px]">(2078)</p>
+                </div>
+                
+                <div class="flex gap-[10px] items-end">
+                    <p class="text-[lightgray] line-through">$640</p>
+                    <h1 class="text-[#1C3554] text-[24px] font-semibold">$735</h1>
+                </div>
+                </div>
+            </article>
+</div>
+
+ <div class="flex flex-col lg:flex-row lg:justify-between gap-[40px]">
+          <article class="flex flex-col gap-[20px] min-w-[350px] items-center lg:min-w-0 lg:items-start">
+                <div class="flex flex-col gap-[20px] relative w-[262px] h-[208px] bg-[#CCCCCC] rounded-[5px]">
+                <div class="absolute bg-[#4586D6] text-white text-[12px] p-[8px_25px] rounded-[5px] top-[190px] left-[60px]">Web Developer</div>
+            </div>
+            <div class="flex flex-col gap-[10px]">
+                <h1 class="text-[#1C3554] font-medium">How to become an Expert Web <br> Developer</h1>
+                <p class="text-[12px] text-[#F72585] ">Tanah Air Team</p>
+                <div class="flex items-center gap-[10px]">
+                    <img src="./src/images/Rating.png" alt="">
+                    <p class="text-[gray] text-[14px]">(2078)</p>
+                </div>
+                
+                <div class="flex gap-[10px] items-end">
+                    <p class="text-[lightgray] line-through">$640</p>
+                    <h1 class="text-[#1C3554] text-[24px] font-semibold">$735</h1>
+                </div>
+                </div>
+            </article>
+              <article class="flex flex-col gap-[20px] min-w-[350px] items-center lg:min-w-0 lg:items-start">
+                <div class="flex flex-col gap-[20px] relative w-[262px] h-[208px] bg-[#CCCCCC] rounded-[5px]">
+                <div class="absolute bg-[#4586D6] text-white text-[12px] p-[8px_25px] rounded-[5px] top-[190px] left-[60px]">Web Developer</div>
+            </div>
+            <div class="flex flex-col gap-[10px]">
+                <h1 class="text-[#1C3554] font-medium">How to become an Expert Web <br> Developer</h1>
+                <p class="text-[12px] text-[#F72585] ">Tanah Air Team</p>
+                <div class="flex items-center gap-[10px]">
+                    <img src="./src/images/Rating.png" alt="">
+                    <p class="text-[gray] text-[14px]">(2078)</p>
+                </div>
+                
+                <div class="flex gap-[10px] items-end">
+                    <p class="text-[lightgray] line-through">$640</p>
+                    <h1 class="text-[#1C3554] text-[24px] font-semibold">$735</h1>
+                </div>
+                </div>
+            </article>
+              <article class="flex flex-col gap-[20px] min-w-[350px] items-center lg:min-w-0 lg:items-start">
+                <div class="flex flex-col gap-[20px] relative w-[262px] h-[208px] bg-[#CCCCCC] rounded-[5px]">
+                <div class="absolute bg-[#4586D6] text-white text-[12px] p-[8px_25px] rounded-[5px] top-[190px] left-[60px]">Web Developer</div>
+            </div>
+            <div class="flex flex-col gap-[10px]">
+                <h1 class="text-[#1C3554] font-medium">How to become an Expert Web <br> Developer</h1>
+                <p class="text-[12px] text-[#F72585] ">Tanah Air Team</p>
+                <div class="flex items-center gap-[10px]">
+                    <img src="./src/images/Rating.png" alt="">
+                    <p class="text-[gray] text-[14px]">(2078)</p>
+                </div>
+                
+                <div class="flex gap-[10px] items-end">
+                    <p class="text-[lightgray] line-through">$640</p>
+                    <h1 class="text-[#1C3554] text-[24px] font-semibold">$735</h1>
+                </div>
+                </div>
+            </article>
+</div>
+ <div class="flex flex-col lg:flex-row lg:justify-between gap-[40px]">
+          <article class="flex flex-col gap-[20px] min-w-[350px] items-center lg:min-w-0 lg:items-start">
+                <div class="flex flex-col gap-[20px] relative w-[262px] h-[208px] bg-[#CCCCCC] rounded-[5px]">
+                <div class="absolute bg-[#4586D6] text-white text-[12px] p-[8px_25px] rounded-[5px] top-[190px] left-[60px]">Web Developer</div>
+            </div>
+            <div class="flex flex-col gap-[10px]">
+                <h1 class="text-[#1C3554] font-medium">How to become an Expert Web <br> Developer</h1>
+                <p class="text-[12px] text-[#F72585] ">Tanah Air Team</p>
+                <div class="flex items-center gap-[10px]">
+                    <img src="./src/images/Rating.png" alt="">
+                    <p class="text-[gray] text-[14px]">(2078)</p>
+                </div>
+                
+                <div class="flex gap-[10px] items-end">
+                    <p class="text-[lightgray] line-through">$640</p>
+                    <h1 class="text-[#1C3554] text-[24px] font-semibold">$735</h1>
+                </div>
+                </div>
+            </article>
+              <article class="flex flex-col gap-[20px] min-w-[350px] items-center lg:min-w-0 lg:items-start">
+                <div class="flex flex-col gap-[20px] relative w-[262px] h-[208px] bg-[#CCCCCC] rounded-[5px]">
+                <div class="absolute bg-[#4586D6] text-white text-[12px] p-[8px_25px] rounded-[5px] top-[190px] left-[60px]">Web Developer</div>
+            </div>
+            <div class="flex flex-col gap-[10px]">
+                <h1 class="text-[#1C3554] font-medium">How to become an Expert Web <br> Developer</h1>
+                <p class="text-[12px] text-[#F72585] ">Tanah Air Team</p>
+                <div class="flex items-center gap-[10px]">
+                    <img src="./src/images/Rating.png" alt="">
+                    <p class="text-[gray] text-[14px]">(2078)</p>
+                </div>
+                
+                <div class="flex gap-[10px] items-end">
+                    <p class="text-[lightgray] line-through">$640</p>
+                    <h1 class="text-[#1C3554] text-[24px] font-semibold">$735</h1>
+                </div>
+                </div>
+            </article>
+              <article class="flex flex-col gap-[20px] min-w-[350px] items-center lg:min-w-0 lg:items-start">
+                <div class="flex flex-col gap-[20px] relative w-[262px] h-[208px] bg-[#CCCCCC] rounded-[5px]">
+                <div class="absolute bg-[#4586D6] text-white text-[12px] p-[8px_25px] rounded-[5px] top-[190px] left-[60px]">Web Developer</div>
+            </div>
+            <div class="flex flex-col gap-[10px]">
+                <h1 class="text-[#1C3554] font-medium">How to become an Expert Web <br> Developer</h1>
+                <p class="text-[12px] text-[#F72585] ">Tanah Air Team</p>
+                <div class="flex items-center gap-[10px]">
+                    <img src="./src/images/Rating.png" alt="">
+                    <p class="text-[gray] text-[14px]">(2078)</p>
+                </div>
+                
+                <div class="flex gap-[10px] items-end">
+                    <p class="text-[lightgray] line-through">$640</p>
+                    <h1 class="text-[#1C3554] text-[24px] font-semibold">$735</h1>
+                </div>
+                </div>
+            </article>
+</div>
+ <div class="flex flex-col lg:flex-row lg:justify-between gap-[40px]">
+          <article class="flex flex-col gap-[20px] min-w-[350px] items-center lg:min-w-0 lg:items-start">
+                <div class="flex flex-col gap-[20px] relative w-[262px] h-[208px] bg-[#CCCCCC] rounded-[5px]">
+                <div class="absolute bg-[#4586D6] text-white text-[12px] p-[8px_25px] rounded-[5px] top-[190px] left-[60px]">Web Developer</div>
+            </div>
+            <div class="flex flex-col gap-[10px]">
+                <h1 class="text-[#1C3554] font-medium">How to become an Expert Web <br> Developer</h1>
+                <p class="text-[12px] text-[#F72585] ">Tanah Air Team</p>
+                <div class="flex items-center gap-[10px]">
+                    <img src="./src/images/Rating.png" alt="">
+                    <p class="text-[gray] text-[14px]">(2078)</p>
+                </div>
+                
+                <div class="flex gap-[10px] items-end">
+                    <p class="text-[lightgray] line-through">$640</p>
+                    <h1 class="text-[#1C3554] text-[24px] font-semibold">$735</h1>
+                </div>
+                </div>
+            </article>
+              <article class="flex flex-col gap-[20px] min-w-[350px] items-center lg:min-w-0 lg:items-start">
+                <div class="flex flex-col gap-[20px] relative w-[262px] h-[208px] bg-[#CCCCCC] rounded-[5px]">
+                <div class="absolute bg-[#4586D6] text-white text-[12px] p-[8px_25px] rounded-[5px] top-[190px] left-[60px]">Web Developer</div>
+            </div>
+            <div class="flex flex-col gap-[10px]">
+                <h1 class="text-[#1C3554] font-medium">How to become an Expert Web <br> Developer</h1>
+                <p class="text-[12px] text-[#F72585] ">Tanah Air Team</p>
+                <div class="flex items-center gap-[10px]">
+                    <img src="./src/images/Rating.png" alt="">
+                    <p class="text-[gray] text-[14px]">(2078)</p>
+                </div>
+                
+                <div class="flex gap-[10px] items-end">
+                    <p class="text-[lightgray] line-through">$640</p>
+                    <h1 class="text-[#1C3554] text-[24px] font-semibold">$735</h1>
+                </div>
+                </div>
+            </article>
+              <article class="flex flex-col gap-[20px] min-w-[350px] items-center lg:min-w-0 lg:items-start">
+                <div class="flex flex-col gap-[20px] relative w-[262px] h-[208px] bg-[#CCCCCC] rounded-[5px]">
+                <div class="absolute bg-[#4586D6] text-white text-[12px] p-[8px_25px] rounded-[5px] top-[190px] left-[60px]">Web Developer</div>
+            </div>
+            <div class="flex flex-col gap-[10px]">
+                <h1 class="text-[#1C3554] font-medium">How to become an Expert Web <br> Developer</h1>
+                <p class="text-[12px] text-[#F72585] ">Tanah Air Team</p>
+                <div class="flex items-center gap-[10px]">
+                    <img src="./src/images/Rating.png" alt="">
+                    <p class="text-[gray] text-[14px]">(2078)</p>
+                </div>
+                
+                <div class="flex gap-[10px] items-end">
+                    <p class="text-[lightgray] line-through">$640</p>
+                    <h1 class="text-[#1C3554] text-[24px] font-semibold">$735</h1>
+                </div>
+                </div>
+            </article>
+</div>
+
+</div>
+
         </div>
     </section>
  </main>
